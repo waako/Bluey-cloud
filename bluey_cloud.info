@@ -1,0 +1,17 @@
+name = bluey_cloud
+description = 760px wide theme with a dark blue header and light grey body background.
+screenshot = screenshot.png
+core = 6.x
+engine = phptemplate
+php = 4.3.3
+
+regions[left] = Left sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+features[] = name
+features[] = primary_links
+features[] = secondary_links
+
+stylesheets[all][] = main.css
